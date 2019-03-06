@@ -8,20 +8,58 @@
 
 /* Begin PBXBuildFile section */
 		0059960D1D46245F00AE1FA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0059960C1D46245F00AE1FA4 /* AppDelegate.swift */; };
-		0059960F1D46245F00AE1FA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0059960E1D46245F00AE1FA4 /* ViewController.swift */; };
 		005996121D46245F00AE1FA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 005996101D46245F00AE1FA4 /* Main.storyboard */; };
 		005996141D46245F00AE1FA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 005996131D46245F00AE1FA4 /* Assets.xcassets */; };
 		005996171D46245F00AE1FA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 005996151D46245F00AE1FA4 /* LaunchScreen.storyboard */; };
+		005996201D46251F00AE1FA4 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0059961F1D46251F00AE1FA4 /* RegistrationViewController.swift */; };
+		005996221D4635D500AE1FA4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005996211D4635D500AE1FA4 /* ProfileViewController.swift */; };
+		005996261D464A2900AE1FA4 /* PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005996251D464A2900AE1FA4 /* PracticeViewController.swift */; };
+		00FB629C1D4CB7B800D12E9C /* CGDraggableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FB629B1D4CB7B700D12E9C /* CGDraggableView.swift */; };
+		22101F6A1D4B3D25001C760F /* addition.txt in Resources */ = {isa = PBXBuildFile; fileRef = 22101F661D4B3D25001C760F /* addition.txt */; };
+		22101F6B1D4B3D25001C760F /* division.txt in Resources */ = {isa = PBXBuildFile; fileRef = 22101F671D4B3D25001C760F /* division.txt */; };
+		22101F6C1D4B3D25001C760F /* multiplication.txt in Resources */ = {isa = PBXBuildFile; fileRef = 22101F681D4B3D25001C760F /* multiplication.txt */; };
+		22101F6D1D4B3D25001C760F /* substraction.txt in Resources */ = {isa = PBXBuildFile; fileRef = 22101F691D4B3D25001C760F /* substraction.txt */; };
+		22101F711D4B6758001C760F /* CustomCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22101F701D4B6758001C760F /* CustomCellTableViewCell.swift */; };
+		221033041D49F5F900FCF979 /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221033031D49F5F900FCF979 /* ButtonsView.swift */; };
+		226FD7451D4A30AA00A3D230 /* CAGradientLayer+Convience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226FD7441D4A30AA00A3D230 /* CAGradientLayer+Convience.swift */; };
+		227969A61D4A26130040C7FE /* LessonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005996231D4649EF00AE1FA4 /* LessonsViewController.swift */; };
+		227D05DA1D48BEC600EA6286 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 227D05D91D48BEC600EA6286 /* GoogleService-Info.plist */; };
+		284FD0021D56780600B996E6 /* AbacusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284FD0011D56780600B996E6 /* AbacusView.swift */; };
+		4321BCF1632CC168A6F650BB /* Pods_Mentality.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F9021A2201BFCF2805F9D5 /* Pods_Mentality.framework */; };
+		CE97076F1D508EC700797D23 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE97076C1D508EC700797D23 /* GameViewController.swift */; };
+		CE9707701D508EC700797D23 /* ResulViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE97076D1D508EC700797D23 /* ResulViewController.swift */; };
+		CED571D51D59E67D00CA22AF /* KolodaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED571D41D59E67D00CA22AF /* KolodaViewController.swift */; };
+		CED571D71D59EE3500CA22AF /* MulitplayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED571D61D59EE3500CA22AF /* MulitplayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		005996091D46245F00AE1FA4 /* Mentality.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mentality.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0059960C1D46245F00AE1FA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0059960E1D46245F00AE1FA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		005996111D46245F00AE1FA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		005996131D46245F00AE1FA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		005996161D46245F00AE1FA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		005996181D46245F00AE1FA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0059961F1D46251F00AE1FA4 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		005996211D4635D500AE1FA4 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		005996231D4649EF00AE1FA4 /* LessonsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonsViewController.swift; sourceTree = "<group>"; };
+		005996251D464A2900AE1FA4 /* PracticeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PracticeViewController.swift; sourceTree = "<group>"; };
+		00FB629B1D4CB7B700D12E9C /* CGDraggableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGDraggableView.swift; sourceTree = "<group>"; };
+		22101F661D4B3D25001C760F /* addition.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = addition.txt; sourceTree = "<group>"; };
+		22101F671D4B3D25001C760F /* division.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = division.txt; sourceTree = "<group>"; };
+		22101F681D4B3D25001C760F /* multiplication.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = multiplication.txt; sourceTree = "<group>"; };
+		22101F691D4B3D25001C760F /* substraction.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = substraction.txt; sourceTree = "<group>"; };
+		22101F701D4B6758001C760F /* CustomCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCellTableViewCell.swift; sourceTree = "<group>"; };
+		221033031D49F5F900FCF979 /* ButtonsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
+		226FD7441D4A30AA00A3D230 /* CAGradientLayer+Convience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAGradientLayer+Convience.swift"; sourceTree = "<group>"; };
+		227D05D91D48BEC600EA6286 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		284FD0011D56780600B996E6 /* AbacusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbacusView.swift; sourceTree = "<group>"; };
+		5284B04D52541175BD8F3ACB /* Pods-Mentality.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mentality.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mentality/Pods-Mentality.release.xcconfig"; sourceTree = "<group>"; };
+		A6F9021A2201BFCF2805F9D5 /* Pods_Mentality.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mentality.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9B466FA5F25DC8987D8265F /* Pods-Mentality.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mentality.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mentality/Pods-Mentality.debug.xcconfig"; sourceTree = "<group>"; };
+		CE97076C1D508EC700797D23 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		CE97076D1D508EC700797D23 /* ResulViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResulViewController.swift; sourceTree = "<group>"; };
+		CED571D41D59E67D00CA22AF /* KolodaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KolodaViewController.swift; sourceTree = "<group>"; };
+		CED571D61D59EE3500CA22AF /* MulitplayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MulitplayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4321BCF1632CC168A6F650BB /* Pods_Mentality.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +79,8 @@
 			children = (
 				0059960B1D46245F00AE1FA4 /* Mentality */,
 				0059960A1D46245F00AE1FA4 /* Products */,
+				048AED391C3924F4FB265E12 /* Pods */,
+				8FC30A8B8BC364F595725596 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +95,80 @@
 		0059960B1D46245F00AE1FA4 /* Mentality */ = {
 			isa = PBXGroup;
 			children = (
-				0059960C1D46245F00AE1FA4 /* AppDelegate.swift */,
-				0059960E1D46245F00AE1FA4 /* ViewController.swift */,
+				0059961E1D46248400AE1FA4 /* Supporting Files */,
 				005996101D46245F00AE1FA4 /* Main.storyboard */,
-				005996131D46245F00AE1FA4 /* Assets.xcassets */,
-				005996151D46245F00AE1FA4 /* LaunchScreen.storyboard */,
-				005996181D46245F00AE1FA4 /* Info.plist */,
+				0059961F1D46251F00AE1FA4 /* RegistrationViewController.swift */,
+				005996211D4635D500AE1FA4 /* ProfileViewController.swift */,
+				00FB629D1D4CB8DE00D12E9C /* Lessons */,
+				22101F721D4B6BF3001C760F /* Practice */,
+				221033051D49FD7C00FCF979 /* lessons_buttons */,
+				226FD7441D4A30AA00A3D230 /* CAGradientLayer+Convience.swift */,
+				284FD0011D56780600B996E6 /* AbacusView.swift */,
+				CED571D61D59EE3500CA22AF /* MulitplayerViewController.swift */,
 			);
 			path = Mentality;
+			sourceTree = "<group>";
+		};
+		0059961E1D46248400AE1FA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22101F661D4B3D25001C760F /* addition.txt */,
+				22101F671D4B3D25001C760F /* division.txt */,
+				22101F681D4B3D25001C760F /* multiplication.txt */,
+				22101F691D4B3D25001C760F /* substraction.txt */,
+				227D05D91D48BEC600EA6286 /* GoogleService-Info.plist */,
+				0059960C1D46245F00AE1FA4 /* AppDelegate.swift */,
+				005996131D46245F00AE1FA4 /* Assets.xcassets */,
+				005996181D46245F00AE1FA4 /* Info.plist */,
+				005996151D46245F00AE1FA4 /* LaunchScreen.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00FB629D1D4CB8DE00D12E9C /* Lessons */ = {
+			isa = PBXGroup;
+			children = (
+				005996231D4649EF00AE1FA4 /* LessonsViewController.swift */,
+				00FB629B1D4CB7B700D12E9C /* CGDraggableView.swift */,
+				CED571D41D59E67D00CA22AF /* KolodaViewController.swift */,
+			);
+			name = Lessons;
+			sourceTree = "<group>";
+		};
+		048AED391C3924F4FB265E12 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9B466FA5F25DC8987D8265F /* Pods-Mentality.debug.xcconfig */,
+				5284B04D52541175BD8F3ACB /* Pods-Mentality.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		22101F721D4B6BF3001C760F /* Practice */ = {
+			isa = PBXGroup;
+			children = (
+				005996251D464A2900AE1FA4 /* PracticeViewController.swift */,
+				22101F701D4B6758001C760F /* CustomCellTableViewCell.swift */,
+				CE97076C1D508EC700797D23 /* GameViewController.swift */,
+				CE97076D1D508EC700797D23 /* ResulViewController.swift */,
+			);
+			name = Practice;
+			sourceTree = "<group>";
+		};
+		221033051D49FD7C00FCF979 /* lessons_buttons */ = {
+			isa = PBXGroup;
+			children = (
+				221033031D49F5F900FCF979 /* ButtonsView.swift */,
+			);
+			name = lessons_buttons;
+			sourceTree = "<group>";
+		};
+		8FC30A8B8BC364F595725596 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6F9021A2201BFCF2805F9D5 /* Pods_Mentality.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +178,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0059961B1D46245F00AE1FA4 /* Build configuration list for PBXNativeTarget "Mentality" */;
 			buildPhases = (
+				60C76E32BA26F47A90C00C1B /* [CP] Check Pods Manifest.lock */,
 				005996051D46245E00AE1FA4 /* Sources */,
 				005996061D46245E00AE1FA4 /* Frameworks */,
 				005996071D46245E00AE1FA4 /* Resources */,
+				C93F9D2EBB00089756690E7E /* [CP] Embed Pods Frameworks */,
+				FC531B38D96A2698CA3AA4CA /* [CP] Copy Pods Resources */,
+				AAD2918DEEE33E9CDF2B45CA /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +207,7 @@
 				TargetAttributes = {
 					005996081D46245E00AE1FA4 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = AB65P3C5XF;
 					};
 				};
 			};
@@ -122,20 +234,100 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22101F6C1D4B3D25001C760F /* multiplication.txt in Resources */,
 				005996171D46245F00AE1FA4 /* LaunchScreen.storyboard in Resources */,
+				22101F6B1D4B3D25001C760F /* division.txt in Resources */,
+				227D05DA1D48BEC600EA6286 /* GoogleService-Info.plist in Resources */,
+				22101F6A1D4B3D25001C760F /* addition.txt in Resources */,
 				005996141D46245F00AE1FA4 /* Assets.xcassets in Resources */,
 				005996121D46245F00AE1FA4 /* Main.storyboard in Resources */,
+				22101F6D1D4B3D25001C760F /* substraction.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60C76E32BA26F47A90C00C1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AAD2918DEEE33E9CDF2B45CA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mentality/Pods-Mentality-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C93F9D2EBB00089756690E7E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mentality/Pods-Mentality-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC531B38D96A2698CA3AA4CA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mentality/Pods-Mentality-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		005996051D46245E00AE1FA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0059960F1D46245F00AE1FA4 /* ViewController.swift in Sources */,
+				227969A61D4A26130040C7FE /* LessonsViewController.swift in Sources */,
+				221033041D49F5F900FCF979 /* ButtonsView.swift in Sources */,
+				226FD7451D4A30AA00A3D230 /* CAGradientLayer+Convience.swift in Sources */,
+				005996221D4635D500AE1FA4 /* ProfileViewController.swift in Sources */,
+				22101F711D4B6758001C760F /* CustomCellTableViewCell.swift in Sources */,
+				CED571D71D59EE3500CA22AF /* MulitplayerViewController.swift in Sources */,
+				284FD0021D56780600B996E6 /* AbacusView.swift in Sources */,
+				00FB629C1D4CB7B800D12E9C /* CGDraggableView.swift in Sources */,
+				005996201D46251F00AE1FA4 /* RegistrationViewController.swift in Sources */,
+				005996261D464A2900AE1FA4 /* PracticeViewController.swift in Sources */,
+				CED571D51D59E67D00CA22AF /* KolodaViewController.swift in Sources */,
+				CE97076F1D508EC700797D23 /* GameViewController.swift in Sources */,
+				CE9707701D508EC700797D23 /* ResulViewController.swift in Sources */,
 				0059960D1D46245F00AE1FA4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,23 +439,35 @@
 		};
 		0059961C1D46245F00AE1FA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9B466FA5F25DC8987D8265F /* Pods-Mentality.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = Mentality/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Octupus.Mentality;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blurredtech.mentality;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		0059961D1D46245F00AE1FA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5284B04D52541175BD8F3ACB /* Pods-Mentality.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = Mentality/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Octupus.Mentality;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blurredtech.mentality;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -286,6 +490,7 @@
 				0059961D1D46245F00AE1FA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
